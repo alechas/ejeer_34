@@ -1,12 +1,14 @@
 <?php
 
-//include_once("PHP/gestor.php");
+include_once("PHP/gestor.php");
 
-echo "muestro post--> ";
-var_dump($_POST);
+$palabras1= Gestor::LeerCaracteres(1);
+$palabras2= Gestor::LeerCaracteres(2);
+$palabras3= Gestor::LeerCaracteres(3);
+$palabras4= Gestor::LeerCaracteres(4);
+$palabras0= Gestor::LeerCaracteres(0);
 
-echo "muestro file--> ";
-var_dump($_FILES);
+
 
 ?>
 
